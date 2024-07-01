@@ -42,7 +42,7 @@ class SearchPage extends StatelessWidget {
                       (state is WeatherLoadingState)
                           ? Center(child: CircularProgressIndicator())
                           : (currentData != null)
-                              ? firstScreenCard(context, currentData,
+                              ? CustomFirstScreenCard(context, currentData,
                                   topLeft: 40, topRight: 40, height: 500)
                               : SizedBox(),
                     ],

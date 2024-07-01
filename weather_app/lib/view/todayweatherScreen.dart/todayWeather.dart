@@ -30,7 +30,7 @@ class TodayScreen extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        firstScreenCard(
+                        CustomFirstScreenCard(
                           context,
                           model,
                         ),

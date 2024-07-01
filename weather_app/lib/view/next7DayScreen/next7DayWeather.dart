@@ -25,7 +25,7 @@ class Next7DayScreen extends StatelessWidget {
           body: SingleChildScrollView(
             child: Column(
               children: [
-                firstScreenCard(context, cubit.weatherData!),
+                CustomFirstScreenCard(context, cubit.weatherData!),
                 Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Column(
